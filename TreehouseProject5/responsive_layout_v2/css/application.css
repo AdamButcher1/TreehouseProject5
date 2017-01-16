@@ -1,18 +1,25 @@
 body {
   background-color: #F5F5F5; }
 
+p {
+  font-size: 1.1em;
+  line-height: 1;
+  font-weight: #000000; }
+
 a {
   font-size: 1.1em;
   background-color: #82E0AA; }
 
 a:hover {
-  color: #0000FF; }
+  font-size: 1em;
+  line-height: #0000FF; }
 
 li {
   list-style-type: none; }
   li a {
     text-decoration: none;
-    color: #000; }
+    font-size: 1em;
+    line-height: #000000; }
   li img {
     display: block;
     margin: auto;

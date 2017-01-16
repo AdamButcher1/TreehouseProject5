@@ -3,6 +3,7 @@ body {
 }
 
 p {
+	@include text(1.1em,1,$black);
 	@extend %font-align;
 }
 
@@ -12,22 +13,20 @@ a {
 }
 
 a:hover {
-	color: $blue;
+	@include text(1em,$blue);
 }
 
 li {
-
-
-	list-style-type: none;
+		list-style-type: none;
 
 	a {
 		text-decoration: none;
-		color: #000;
+		@include text(1em,$black);
 	}
 
 	img {
-	display: block;
-	margin: auto;
-	width: 90%;
+		display: block;
+		margin: auto;
+		width: 90%;
 	}
 }

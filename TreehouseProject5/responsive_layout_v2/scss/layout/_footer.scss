@@ -1,0 +1,36 @@
+.footer-info {
+	 background-color: $white;
+}
+
+.name-footer {
+	font-family: arial;
+	float: left;
+	display: inline;
+}
+
+.nav-footer {
+	float:right;
+	display: inline;
+	padding:10px;
+	font-family: arial;
+}
+
+.footer-info {
+	display: none;
+	@media #{$brk-narrow} {
+		display: inline;
+	}
+}
+
+.small-footer-info {
+	@media #{$brk-narrow} {
+		display: none;
+	}
+}
+
+.contact {
+	text-align: center;
+	font-family: arial;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}

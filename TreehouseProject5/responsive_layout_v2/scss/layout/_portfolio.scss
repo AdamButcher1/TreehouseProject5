@@ -1,0 +1,19 @@
+.portfolio {
+	overflow: hidden;
+	background-color: $white;
+}
+
+.portfolio ul li {
+	@media #{$brk-narrow} {
+		float: left;
+    	display: block;
+    	width: 45%;
+    	margin: 2.5%;
+	}
+
+	@media #{$brk-wide} {
+		float: left;
+    	width: 25%;
+    	margin: 4.1666%;
+	} 
+}

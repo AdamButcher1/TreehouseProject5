@@ -1,0 +1,134 @@
+body {
+  background-color: #F5F5F5; }
+
+a {
+  font-size: 1.1em;
+  background-color: #82E0AA; }
+
+a:hover {
+  color: #0000FF; }
+
+li {
+  list-style-type: none; }
+  li a {
+    text-decoration: none;
+    color: #000; }
+  li img {
+    display: block;
+    margin: auto;
+    width: 90%; }
+
+.footer-info {
+  background-color: #FFFFFF; }
+
+.name-footer {
+  font-family: arial;
+  float: left;
+  display: inline; }
+
+.nav-footer {
+  float: right;
+  display: inline;
+  padding: 10px;
+  font-family: arial; }
+
+.footer-info {
+  display: none; }
+  @media (min-width: 768px) {
+    .footer-info {
+      display: inline; } }
+
+@media (min-width: 768px) {
+  .small-footer-info {
+    display: none; } }
+
+.contact {
+  text-align: center;
+  font-family: arial;
+  margin-top: 6px;
+  margin-bottom: 6px; }
+
+p, .name, ul h1, .main-nav li, .info {
+  font-family: arial;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  header {
+    text-align: center; } }
+
+.main-header {
+  overflow: hidden;
+  height: 50%;
+  padding-bottom: 50px; }
+
+@media (min-width: 768px) {
+  .main-nav {
+    padding-left: 0px; } }
+@media (min-width: 1024px) {
+  .main-nav {
+    float: right; } }
+.main-nav li {
+  background-color: #FFFFFF;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  list-style: none; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      display: inline-block;
+      margin: 12px; } }
+  @media (min-width: 1024px) {
+    .main-nav li {
+      float: left;
+      margin-left: 12px; } }
+.main-nav a {
+  padding: 10px 15px;
+  text-align: center;
+  display: block; }
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em; }
+  @media (min-width: 768px) {
+    .container {
+      width: 85%;
+      max-width: 1150px;
+      margin: 0 auto; } }
+
+@media (min-width: 768px) {
+  .info {
+    float: left;
+    width: 45%; } }
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  width: 50%; }
+  @media (min-width: 768px) {
+    .profile-pic {
+      width: 45%;
+      float: right; } }
+  @media (min-width: 1024px) {
+    .profile-pic {
+      clear: both; } }
+
+@media (min-width: 1024px) {
+  #realname {
+    float: left; } }
+
+.portfolio {
+  overflow: hidden;
+  background-color: #FFFFFF; }
+
+@media (min-width: 768px) {
+  .portfolio ul li {
+    float: left;
+    display: block;
+    width: 45%;
+    margin: 2.5%; } }
+@media (min-width: 1024px) {
+  .portfolio ul li {
+    float: left;
+    width: 25%;
+    margin: 4.1666%; } }
+
+/*# sourceMappingURL=application.css.map */

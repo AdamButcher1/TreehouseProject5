@@ -1,0 +1,86 @@
+header {
+	@media #{$brk-narrow} {
+		text-align: center;
+	}
+}
+
+.main-header {
+	overflow: hidden;
+	height:50%;
+	padding-bottom: 50px;
+}
+
+.name, ul h1 {
+	@extend %font-align;
+}
+
+.main-nav {
+	@media #{$brk-narrow} {
+		 padding-left: 0px;
+	}
+	@media #{$brk-wide} {
+		float: right;
+	}
+	
+	li {
+		@extend %font-align;
+		background-color: $white;
+		margin-top: 6px;
+		margin-bottom: 6px;
+		list-style: none;
+
+		@media #{$brk-narrow} {
+			display: inline-block;
+    		margin: 12px;
+		}
+
+		@media #{$brk-wide} {
+			float: left;
+    		margin-left: 12px;
+		}
+	}
+	a {
+		padding: 10px 15px;
+		text-align: center;
+		display: block;
+	}
+}
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+	@media #{$brk-narrow} {
+		width: 85%;
+    	max-width: 1150px;
+    	margin: 0 auto;	
+	}
+}
+
+.info {
+	@extend %font-align;
+	@media #{$brk-narrow} {
+		float: left;
+	    width: 45%;
+	}
+}
+
+.profile-pic {
+	display: block;
+	margin: auto;
+	width: 50%;
+
+	@media #{$brk-narrow} {
+	width: 45%;
+    float: right;
+	}
+	
+	@media #{$brk-wide} {
+		clear: both;
+	}
+}
+
+#realname {
+	@media #{$brk-wide} {
+		float: left;
+	}
+}

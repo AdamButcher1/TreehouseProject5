@@ -3,17 +3,12 @@ body {
 }
 
 p {
-	@include text(1.1em,1,$black);
 	@extend %font-align;
 }
 
 a {
-	@include text(1.1em);
+	@include text(1.1em,$black);
 	background-color: $green;
-}
-
-a:hover {
-	@include text(1em,$blue);
 }
 
 li {
@@ -21,7 +16,6 @@ li {
 
 	a {
 		text-decoration: none;
-		@include text(1em,$black);
 	}
 
 	img {
